@@ -187,9 +187,40 @@
 
 // **** To return Largest number ****
 
-let arr = [5,6,1,7,2];
+// let arr = [5,6,1,7,2];
 
-const output = arr.reduce((res,curr) =>{
-    return res>curr ? res:curr;
-});
-console.log(output);
+// const output = arr.reduce((res,curr) =>{
+//     return res>curr ? res:curr;
+// });
+// console.log(output);
+
+
+
+// ******************** filter out the marks of the students that scored 90+ ************************
+
+// let marks = [74, 87, 62, 97, 89, 94, 91];
+
+// const highMarks = marks.filter((val) => {
+//     return val>=90;
+// })
+// console.log("Marks with 90 and above are: ", highMarks);
+
+
+// ********** Create an array then calculate sum and product of the array ***************
+
+// let num = prompt("Enter a number: ");
+// arr=[];
+// for (let i = 1; i<=num ; i++){
+//     arr.push(i);
+// }
+// console.log(`Array = ${arr}`);
+
+// let sum = arr.reduce((res,curr) => {
+//     return res+curr;
+// })
+// console.log(`Sum = ${sum}`);
+
+// let prod = arr.reduce((res,curr) => {
+//     return res*curr;
+// })
+// console.log(`Product = ${prod}`);
