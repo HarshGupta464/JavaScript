@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(240, 120, 15);
+    background-color: rgb(243, 241, 187);
+}
+body{
+    background-color: bisque;
+}
+button{
+    background-color: rgb(34, 104, 165);
+    color: white;
+}
+
+#MyId {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color:bisque;
+    border: 1px solid black;
+}
